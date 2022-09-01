@@ -1,10 +1,10 @@
 # Introduction to this Application
-You will be modifying an existing server that provides an API for a blogging website. The database for the API has a table of blog Posts, which include information about each blog post such as the text and author of the post, how many times the post has been “liked”, etc. Additionally, the database contains Users. Each blog post can have multiple authors, which correspond to users in the database (this association is stored in the database as UserPost). A new blog post must have at least one author that is a user already registered in the database.
+You will be modifying an existing server that provides an API for a blogging website. The database for the API has a table of blog `Posts`, which include information about each blog post such as the text and author of the post, how many times the post has been “liked”, etc. Additionally, the database contains `Users`. Each blog post can have multiple authors, which correspond to users in the database (this association is stored in the database as `UserPost`). A new blog post must have at least one author that is a user already registered in the database.
 
 Currently, the starting code has the following API routes already implemented:
-- POST /api/register - Register a new user
-- POST /api/login - Login for an existing user
-- POST /api/posts - Create a new post
+- POST `/api/register` - Register a new user
+- POST `/api/login` - Login for an existing user
+- POST `/api/posts` - Create a new post
 
 Only a logged in User can use this blogging website API, with the exception of the login and register routes.
 

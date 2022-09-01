@@ -6,7 +6,7 @@ Currently, the starting code has the following API routes already implemented:
 - POST `/api/login` - Login for an existing user
 - POST `/api/posts` - Create a new post
 
-Only a logged in User can use this blogging website API, with the exception of the login and register routes.
+Only a logged in `User` can use this blogging website API, with the exception of the login and register routes.
 
 # Getting Started
 
